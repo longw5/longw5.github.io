@@ -14,7 +14,7 @@
     <div class="header">
         <ul id="pages">
             <li>
-                <a href="/">home : </a>https://blog.csdn.net/baidu_34475885
+                <a href="https://blog.csdn.net/baidu_34475885">我的博客</a>
             </li>
             <li>
                 <a href="/#/tags">tags</a>
@@ -51,19 +51,6 @@
         </div>
     </div>
     {{/posts}}
-    <ul class="pages">
-        Pages:
-        {{#pages}}
-            <li>
-            {{#select}}
-                <span class="selected">{{num}}</span>
-            {{/select}}
-            {{^select}}
-                <a href="{{path}}">{{num}}</a>
-            {{/select}}
-            </li>
-        {{/pages}}
-    </ul>
 </script>
 <script id="archiveTemplate" type="text/mustache">
     {{#group}}
